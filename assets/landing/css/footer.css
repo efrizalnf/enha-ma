@@ -12,7 +12,7 @@
 	margin: 0 auto;
 	bottom: 0;
 	margin-top: 10px;
-	background-color: #057e2d;
+	background-color: #00B0FF;
 	color: #35373a;
 	min-height: 50vh;
 	padding: 35px;
@@ -35,7 +35,7 @@
 }
 
 .footer-container hr {
-	border: solid 1px #5efc82;
+	border: solid 1px #4FC3F7;
 }
 
 .footer-container a {

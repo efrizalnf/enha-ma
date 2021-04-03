@@ -49,7 +49,7 @@
 	margin-bottom: 15px;
 	border-radius: 150%;
 	background-size: cover;
-	border: solid 3px rgb(2, 77, 27);
+	border: solid 3px #4FC3F7;
 	transition: transform .2s;
 }
 

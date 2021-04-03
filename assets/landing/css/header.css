@@ -27,13 +27,13 @@
 	/* height: 65px !important; */
 	background-color: #FFF !important;
 	opacity: 90%;
-	border-bottom: solid 1px #5efc82;
+	border-bottom: solid 1px #4FC3F7;
 
 
 }
 
 .navbar-toggler-right {
-	background-color: #057e2d;
+	background-color: #00B0FF;
 	border-radius: 10px;
 }
 
@@ -46,7 +46,7 @@
 	/* height: 45px; */
 	border-top: solid 1px #4D555E;
 	padding-top: 15px;
-	background-color: #057e2d;
+	background-color: #00B0FF;
 }
 
 .nav-text {
@@ -62,7 +62,7 @@
 }
 
 .list-unstyled {
-	color: #0fca3b;
+	color: #4FC3F7;
 	margin: auto;
 	line-height: 2px;
 }
@@ -70,7 +70,7 @@
 
 #navbar li a:active {
 	color: #050505;
-	background-color: #5efc82;
+	background-color: #4FC3F7;
 }
 
 
@@ -92,7 +92,7 @@
 
 .collapse .navbar-nav .nav-item a:hover {
 	color: #212121;
-	background-color: #0da130;
+	background-color: #4FC3F7;
 	transition: .5s;
 	animation-delay: 0.10s;
 	font-style: initial;
@@ -113,12 +113,12 @@
 
 .dropdown:hover .dropdown-menu {
 	display: block;
-	color: #057e2d;
+	color: #00B0FF;
 	
 }
 
 .dropdown .dropdown-menu {
-	color: #057e2d;
+	color: #00B0FF;
 	font-style: initial;
 	text-decoration: none;
 	display: none;
@@ -134,20 +134,20 @@
 /* .nav-item .nav-link a:last-child {
 	position: relative;
 	display: inline-block;
-	color: #5efc82;
+	color: #4FC3F7;
 	text-decoration: none;
 } */
 
 /* .nav-item a:after {
-	color: #009624;
-	background-color: #5efc82 !important;
+	color: #00B0FF;
+	background-color: #4FC3F7 !important;
 	border-radius: 30px 0px 30px 0px;
 	text-decoration: none;
 } */
 
 .top-header a {
 	text-decoration: none;
-	color: #08b430;
+	color: #00B0FF;
 	text-shadow: -1px 0 rgb(34, 37, 34),
 		0 1px rgb(34, 37, 34),
 		1px 0 rgb(34, 37, 34),
@@ -211,7 +211,7 @@
 }
 
 .carousel-inner .carousel-item a {
-	background-color: #009624;
+	background-color: #00B0FF;
 }
 
 .carousel-inner .carousel-item a:hover {
@@ -315,7 +315,7 @@
 	/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='green' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); */
 	background-image: url(.);
 	display: none;
-	background-color: #009624 !important;
+	background-color: #00B0FF !important;
 	opacity: 85%;
 	border-radius: 0 10px 10px 0;
 	float: left;
@@ -328,7 +328,7 @@
 	height: 50px;
 	background-image: none;
 	display: none;
-	background-color: #009624 !important;
+	background-color: #00B0FF !important;
 	opacity: 85%;
 	border-radius: 10px 0 0 10px;
 	float: right;

@@ -10,13 +10,13 @@
     <meta name="copyright" content="efrizalnf|zlztech 2020">
     <meta name="author" content="efrizalnf|zlztech 2020">
     <meta name="url" content="https://www.everyzalz.blogspot.com">
-    <link rel="icon" href="<?php echo base_url()?>assets/landing/img/favicon.ico">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/style.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/w3.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/baguetteBox.min.css">
-    <title>MI Nurul Huda Kota Bandung</title>
+    <link rel="icon" href="<?php echo base_url() ?>assets/landing/img/favicon.ico">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/landing/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/landing/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/landing/css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/landing/css/w3.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/landing/css/baguetteBox.min.css">
+    <title><?= $profile->nama_madrasah ?></title>
 </head>
 
 <body>
@@ -44,19 +44,17 @@
         </div> -->
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
             <div class="navbar-toggler-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
             <div class="top-header">
-                <a href="<?php echo base_url('enhas/index')?>" class="navbar-brand ml-3 mt-2">
-                    <img src="<?php echo base_url()?>assets/landing/img/logo-enha2.png" class="ml-15 mr-2" width="49"
-                        height="49">
+                <a href="<?php echo base_url('enhas/index') ?>" class="navbar-brand ml-3 mt-2">
+                    <img src="<?php echo base_url() ?>assets/landing/img/<?= $profile->logo_sekolah ?>" class="ml-15 mr-2" width="49" height="49">
                     <div class="nav-text">
                         <ul class="list-unstyled">
                             <li>
-                                <h5 class="font-weight-bold brand">MI NURUL HUDA</h5>
+                                <h5 class="font-weight-bold brand"><?= $profile->nama_madrasah ?></h5>
                             </li>
                         </ul>
                     </div>
@@ -65,58 +63,51 @@
             <div class="collapse navbar-collapse flex-column" id="navbar">
                 <ul class="navbar-nav w-100 justify-content-end px-3">
                     <li class="nav-item bg-success rounded text-warning active mr-1">
-                        <a class="nav-link font-weight-bold" href="<?php echo base_url('enhas/index')?>">Home <span
-                                class="sr-only">(current)</span></a>
+                        <a class="nav-link font-weight-bold" href="<?php echo base_url('enhas/index') ?>">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Tentang Kami
                         </a>
                         <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/index#section-profil')?>" class="page-scroll">Profil</a>
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/index#section-sejarah')?>" class="page-scroll">Sambutan Kamad</a>
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/index#section-fasilitas')?>" class="page-scroll">Fasilitas</a>
+                            <a class="dropdown-item" href="<?php echo base_url('enhas/index#section-profil') ?>" class="page-scroll">Profil</a>
+                            <a class="dropdown-item" href="<?php echo base_url('enhas/index#section-sejarah') ?>" class="page-scroll">Sambutan Kamad</a>
+                            <a class="dropdown-item" href="<?php echo base_url('enhas/index#section-fasilitas') ?>" class="page-scroll">Fasilitas</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Direktori
                         </a>
                         <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/dirguru')?>">Direktori Guru</a>
+                            <a class="dropdown-item" href="<?php echo base_url('enhas/dirguru') ?>">Direktori Guru</a>
                             <a class="dropdown-item" href="#">Direktori Siswa</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://ppdb.yapinda.online/" target="_blank">PPDB</a>
+                        <a class="nav-link" href="http://ppdbma.yapinda.my.id/" target="_blank">PPDB</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('enhas/index#section-gallery')?>" class="page-scroll">Galeri</a>
+                        <a class="nav-link" href="<?php echo base_url('enhas/index#section-gallery') ?>" class="page-scroll">Galeri</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Informasi
                         </a>
                         <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/informasi')?>">Pengumuman</a>
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/download')?>">File Download</a>
+                            <a class="dropdown-item" href="<?php echo base_url('enhas/informasi') ?>">Pengumuman</a>
+                            <a class="dropdown-item" href="<?php echo base_url('enhas/download') ?>">File Download</a>
                         </div>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             eNHa Apps
                         </a>
                         <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="http://ard.minurulhuda.sch.id/portal/login/mi"
-                                target="_blank">ARD</a>
-                            <a class="dropdown-item" href="http://cbt.minurulhuda.sch.id/" target="_blank">eNHa-CBT</a>
-                            <a class="dropdown-item" href="http://elearning.minurulhuda.sch.id/"
-                                target="_blank">eNHa-Learning</a>
+                            <a class="dropdown-item" href="http://ard.masnurulhuda.sch.id/portal/login/mi" target="_blank">ARD</a>
+                            <a class="dropdown-item" href="http://cbt.masnurulhuda.sch.id/" target="_blank">eNHa-CBT</a>
+                            <a class="dropdown-item" href="http://elearning.masnurulhuda.sch.id/" target="_blank">eNHa-Learning</a>
                         </div>
                     </li>
                 </ul>

@@ -18,22 +18,25 @@ public function __construct(){
     
     public function dirguru(){
         $data['guru'] = $this->enhamodel->getDirGuru();
-        $this->load->view('templates/landing/header_default');
+        $data['profile'] = $this->enhamodel->getProfile();
+        $this->load->view('templates/landing/header_default', $data);
         $this->load->view('landing/dirguru', $data);
-        $this->load->view('templates/landing/footer_default');
+        $this->load->view('templates/landing/footer_default', $data);
     } 
 
     public function informasi(){
         $data['informasi'] = $this->enhamodel->getInfo();
-        $this->load->view('templates/landing/header_default');
+        $data['profile'] = $this->enhamodel->getProfile();
+        $this->load->view('templates/landing/header_default', $data);
         $this->load->view('landing/informasi', $data);
-        $this->load->view('templates/landing/footer_default');
+        $this->load->view('templates/landing/footer_default', $data);
     }
 
     public function download(){
         $data['download'] = $this->enhamodel->getFile();
-        $this->load->view('templates/landing/header_default');
+        $data['profile'] = $this->enhamodel->getProfile();
+        $this->load->view('templates/landing/header_default', $data);
         $this->load->view('landing/download', $data);
-        $this->load->view('templates/landing/footer_default');
+        $this->load->view('templates/landing/footer_default', $data);
     }
 }

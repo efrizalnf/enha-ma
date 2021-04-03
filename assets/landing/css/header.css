@@ -87,7 +87,7 @@
 	font-family: 'Poppins',
 		cursive;
 	text-decoration: none;
-	border-radius: 12px 12px 12px 12px;
+	border-radius: 5px 5px 5px 5px;
 }
 
 .collapse .navbar-nav .nav-item a:hover {

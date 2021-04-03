@@ -82,7 +82,7 @@
             </div>
             <div class="collapse navbar-collapse flex-column" id="navbar">
                 <ul class="navbar-nav w-100 justify-content-end px-3">
-                    <li class="nav-item bg-info rounded text-warning active mr-1">
+                    <li class="nav-item rounded text-warning active mr-1">
                         <a class="nav-link font-weight-bold" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">

@@ -30,7 +30,7 @@
 	}
 
 	.carousel-caption h3 {
-		color: #81D4FA;
+		color: #00B0FF;
 		text-shadow: 1px 1px #0a0a0a;
 		font-size: 3vw;
 		font-family: 'Righteous',
@@ -45,7 +45,7 @@
 	.carousel-caption p {
 		margin: auto;
 		margin-top: 7px;
-		color: #81D4FA;
+		color: #00B0FF;
 		text-shadow: 1px 1px #0a0a0a;
 		font-size: 2vw;
 		font-family: 'Raleway',
@@ -116,7 +116,7 @@
 	}
 
 	.carousel-caption h3 {
-		color: #81D4FA;
+		color: #0083c0;
 		text-shadow: 1px 1px #0a0a0a;
 		font-size: 3vw;
 		font-family: 'Righteous',
@@ -129,7 +129,7 @@
 	.carousel-caption p {
 		line-height: 3;
 		margin: auto;
-		color: #81D4FA;
+		color: #0083c0;
 		text-shadow: 1px 1px #0a0a0a;
 		font-size: 2vw;
 		font-family: 'Raleway',
@@ -353,7 +353,7 @@ section {
 	/* Remove borders */
 	outline: none;
 	/* Remove outline */
-	background-color: #00B0FF;
+	background-color: #c7edff;
 	/* Set a background color */
 	color: white;
 	/* Text color */

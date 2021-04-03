@@ -30,7 +30,7 @@
 	}
 
 	.carousel-caption h3 {
-		color: #009624;
+		color: #81D4FA;
 		text-shadow: 1px 1px #0a0a0a;
 		font-size: 3vw;
 		font-family: 'Righteous',
@@ -45,7 +45,7 @@
 	.carousel-caption p {
 		margin: auto;
 		margin-top: 7px;
-		color: #009624;
+		color: #81D4FA;
 		text-shadow: 1px 1px #0a0a0a;
 		font-size: 2vw;
 		font-family: 'Raleway',
@@ -74,14 +74,14 @@
 		margin-top: 0px;
 		border-radius: 55px 55px 55px 55px;
 		opacity: unset !important;
-		background-color: #12b337;
-		border-color: #009624;
+		background-color: #4FC3F7;
+		border-color: #81D4FA;
 	}
 
 
 	.carousel-caption a:hover {
-		background-color: #009624;
-		border-color: #12b337;
+		background-color: #81D4FA;
+		border-color: #4FC3F7;
 	}
 
 	.sejarah img {
@@ -116,7 +116,7 @@
 	}
 
 	.carousel-caption h3 {
-		color: #009624;
+		color: #81D4FA;
 		text-shadow: 1px 1px #0a0a0a;
 		font-size: 3vw;
 		font-family: 'Righteous',
@@ -129,7 +129,7 @@
 	.carousel-caption p {
 		line-height: 3;
 		margin: auto;
-		color: #009624;
+		color: #81D4FA;
 		text-shadow: 1px 1px #0a0a0a;
 		font-size: 2vw;
 		font-family: 'Raleway',
@@ -149,7 +149,7 @@
 	.carousel-caption a {
 		position: relative;
 		font-size: 8px !important;
-		color: #009624;
+		color: #81D4FA;
 		font-family: 'Raleway',
 			sans-serif;
 		font-style: initial;
@@ -157,14 +157,14 @@
 		border-radius: 55px 55px 55px 55px;
 		opacity: 100% !important;
 		background-color: #ffffff !important;
-		border-color: #009624;
+		border-color: #81D4FA;
 	}
 
 
 	.carousel-caption a:hover {
-		background-color: #009624 !important;
+		background-color: #81D4FA !important;
 		color: #F8F9FA;
-		border-color: #009624;
+		border-color: #81D4FA;
 	}
 
 	.sejarah img {
@@ -189,7 +189,7 @@
 	}
 
 	.carousel-caption h3 {
-		color: #009624;
+		color: #81D4FA;
 		text-shadow: 1px 1px #0a0a0a;
 		font-size: 3vw;
 		font-family: 'Righteous',
@@ -202,7 +202,7 @@
 	.carousel-caption p {
 		line-height: 3;
 		margin: auto;
-		color: #009624;
+		color: #81D4FA;
 		text-shadow: 1px 1px #0a0a0a;
 		font-size: 2vw;
 		font-family: 'Raleway',
@@ -221,7 +221,7 @@
 	.carousel-caption a {
 		position: relative;
 		/* font-size: 11px !important; */
-		color: #12b337;
+		color: #4FC3F7;
 		font-family: 'Raleway',
 			sans-serif;
 		font-style: initial;
@@ -229,14 +229,14 @@
 		border-radius: 55px 55px 55px 55px;
 		opacity: 100% !important;
 		background-color: #fdfdfd !important;
-		border-color: #12b337;
+		border-color: #4FC3F7;
 	}
 
 
 	.carousel-caption a:hover {
-		background-color: #009624 !important;
+		background-color: #81D4FA !important;
 		color: #F8F9FA;
-		border-color: #12b337;
+		border-color: #4FC3F7;
 	}
 
 	.sejarah img {
@@ -319,6 +319,7 @@ section {
 	font-size: 24px;
 	font-family: 'Poppins', Arial, Helvetica, sans-serif;
 	/* line-height: 2px; */
+	
 }
 
 .sejarah .title hr,
@@ -329,7 +330,7 @@ section {
 .guru .title hr,
 .info .title hr,
 .download .title hr {
-	border: solid 1px #009624;
+	border: solid 1px #81D4FA;
 	width: 170px;
 	margin: auto;
 }
@@ -352,7 +353,7 @@ section {
 	/* Remove borders */
 	outline: none;
 	/* Remove outline */
-	background-color: #0b992c;
+	background-color: #00B0FF;
 	/* Set a background color */
 	color: white;
 	/* Text color */
@@ -367,6 +368,6 @@ section {
 }
 
 #scroll-top:hover {
-	background-color: #0bc236;
+	background-color: #00B0FF;
 	/* Add a dark-grey background on hover */
 }

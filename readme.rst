@@ -1,5 +1,5 @@
 ###################
-Under Developement Website
+Under Development Website
 ###################
 
 ENHA Information System Management
